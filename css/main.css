@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     padding: 0;
     background: #050505 url("../img/img01.jpg") repeat;
@@ -47,7 +48,7 @@ a {
 }
 
 .container {
-    width: 1000px;
+    width: 100%;
     margin: 0px auto;
 }
 
@@ -58,7 +59,7 @@ a {
 }
 
 #header {
-    width: 1000px;
+    width: 100%;
     height: 150px;
     margin: 0 auto;
     padding: 0px 0px;
@@ -199,7 +200,7 @@ a {
 /* Page */
 
 #page {
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     padding: 30px 0px;
 }
@@ -350,7 +351,7 @@ a {
 
 #footer-content {
     overflow: hidden;
-    width: 1000px;
+    width: 100%;
     margin: 0px auto;
     color: #d6e2f0;
 }
@@ -466,9 +467,14 @@ a {
 
 #banner {
     margin: 0px auto;
-    width: 1000px;
-    height: 340px;
+    width: 100%;
+    height: auto;
     background: url("../img/img03.png") no-repeat left bottom;
+}
+
+#banner img {
+    width: 100%;
+    height: auto;
 }
 
 .list-style1 {
