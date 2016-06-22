@@ -360,61 +360,9 @@ a {
     text-decoration: underline;
 }
 
-/* Three Column Footer Content */
-
-#footer-content {
-    width: 100%;
-    margin: 0px auto;
-    color: #d6e2f0;
-}
-
-#footer-content a {
-    color: #92a9b6;
-}
-
-#footer-bg {
-    padding: 30px 0px;
-    background: #e8e8e8;
-}
-
-#footer-content h2 {
-    margin: 0px;
-    padding: 0px 0px 20px 0px;
-    letter-spacing: -1px;
-    font-size: 26px;
-    color: #262626;
-}
-
-#footer-content #fbox1 {
-    width: 300px;
-    margin-right: 50px;
-}
-
-#footer-content #fbox2 {
-    width: 300px;
-}
-
-#footer-content #fbox3 {
-    width: 300px;
-}
-
-#column1 {
-    width: 290px;
-    margin-right: 30px;
-}
-
-#column2 {
-    width: 280px;
-}
-
-#column3 {
-    width: 260px;
-}
-
 /* Footer */
 
 #footer {
-    height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
