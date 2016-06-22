@@ -1,3 +1,13 @@
+html {
+    box-styling: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
 body {
     width: 100%;
     margin: 0;
@@ -7,8 +17,6 @@ body {
     font-size: 14px;
     color: #5b5b5b;
 }
-
-
 
 h1,
 h2,
@@ -259,10 +267,8 @@ a {
     font-weight: 300;
 }
 
-.post .meta .date {
-}
-
 .post .meta .posted {
+    float: right;
 }
 
 .post .entry {
