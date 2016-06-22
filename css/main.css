@@ -172,7 +172,6 @@ a {
     display: block;
     line-height: 100px;
     margin-right: 1px;
-    padding: 0.9em 1em;
     text-decoration: none;
     text-align: center;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, .2);
@@ -191,6 +190,12 @@ a {
 }
 
 @media all and (min-width: 400px) {
+    h1 {
+        display: inline;
+    }
+    #menu {
+        display: inline;
+    }
     #menu li {
         display: inline-block;
         width: 50%;
@@ -268,23 +273,15 @@ a {
 .links {
     padding-top: 20px;
     margin-bottom: 30px;
+    display: inline-block;
 }
 
-.more {
-    display: block;
-    width: 88px;
-    padding: 5px 5px;
-    margin-right: 10px;
-    background: #222222;
-    color: #ffffff;
-    text-align: center;
-    text-decoration: none;
-}
-
+.more,
 .comments {
-    display: block;
+    display: inline;
     width: 88px;
-    padding: 5px 5px;
+    padding: 16px 16px;
+    margin-right: 10px;
     background: #222222;
     color: #ffffff;
     text-align: center;
