@@ -364,7 +364,7 @@ a {
 
 #footer {
     margin: 0 auto;
-    padding: 50px 0 15px 0;
+    padding: 10px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
@@ -379,40 +379,10 @@ a {
     color: #5e5e5e;
 }
 
-#footer a {
-    color: #5e5e5e;
-}
-
-#marketing {
-    margin-bottom: 30px;
-    padding: 20px 0px 10px 0px;
-    border-top: 1px solid #e7ebed;
-    border-bottom: 1px solid #e7ebed;
-}
-
-#marketing .text1 {
-    margin: 0px;
-    padding: 0px;
-    letter-spacing: -2px;
-    text-transform: lowercase;
-    font-size: 34px;
-    color: #345e9b;
-}
-
-#marketing .text2 {
-}
-
-#marketing .text2 a {
-    display: block;
-    width: 252px;
-    height: 38px;
-    padding: 15px 0px 0px 0px;
-    background: url("../img/img07.jpg") no-repeat left top;
-    letter-spacing: -2px;
-    text-align: center;
-    text-transform: lowercase;
-    font-size: 30px;
-    color: #ffffff;
+@media all and (min-width: 600px) {
+    #footer{
+        padding: 50px 0 85px 0;
+    }
 }
 
 #banner {
