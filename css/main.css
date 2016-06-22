@@ -237,11 +237,6 @@ a {
 
 /* Content */
 
-#content {
-    width: ;
-    padding: 0px 0px 0px 0px;
-}
-
 .post {
     margin-bottom: 40px;
     border-bottom: 1px solid #e7ebed;
@@ -358,6 +353,18 @@ a {
 
 #sidebar a:hover {
     text-decoration: underline;
+}
+
+@media (min-width: 1150px) {
+    #content {
+        float: right;
+        width: calc(100% / 3 * 2);
+        margin-left: 2.5em;
+    }
+    #sidebar {
+        float: left;
+        width: calc(100% / 3 -2.5em);
+    }
 }
 
 /* Footer */
