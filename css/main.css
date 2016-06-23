@@ -55,6 +55,7 @@ a {
 
 #wrapper {
     background: #ffffff url("../img/img05.jpg") repeat;
+    max-width: 1200px;
 }
 
 .container {
@@ -63,9 +64,6 @@ a {
 }
 
 /* Header */
-
-#header-wrapper {
-}
 
 #header {
     width: 80%;
@@ -92,72 +90,7 @@ a {
 #logo h1 a {
     color: #1f1f1f;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, .2);
-}
-
-#logo p {
-    margin: 0;
-    padding: 0px 0 0 0px;
-    letter-spacing: -1px;
-    font: normal 18px Georgia, "Times New Roman", Times, serif;
-    font-style: italic;
-    color: #8e8e8e;
-}
-
-#logo p a {
-    color: #8e8e8e;
-}
-
-#logo a {
-    border: none;
-    background: none;
     text-decoration: none;
-    color: #000000;
-}
-
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #e7ebed;
-    background: #ffffff;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5d781d;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #b9b9b9;
-    color: #000000;
 }
 
 /* Menu */
