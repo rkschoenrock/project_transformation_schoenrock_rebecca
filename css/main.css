@@ -55,7 +55,6 @@ a {
 
 #wrapper {
     background: #ffffff url("../img/img05.jpg") repeat;
-    max-width: 1200px;
 }
 
 .container {
@@ -328,6 +327,7 @@ a {
 #banner {
     margin: 0px auto;
     width: 100%;
+    max-width: 1200px;
     height: auto;
     background: url("../img/img03.png") no-repeat left bottom;
 }
