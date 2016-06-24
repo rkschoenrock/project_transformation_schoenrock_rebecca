@@ -2,7 +2,7 @@
 
 ## Links
 
-* [](Github Link)
+* [https://github.com/rkschoenrock/project_transformation_schoenrock_rebecca](Github Link)
 * [http://rebeccaschoenrock.com/project_transformation_schoenrock_rebecca/](My Web Host)
 
 ## Resources
